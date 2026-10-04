@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /*?s=*
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+# TODO: replace example.com with your real deployed URL
+Sitemap: https://example.com/sitemap.xml
